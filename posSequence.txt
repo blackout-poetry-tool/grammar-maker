@@ -1,0 +1,38 @@
+prp vbd dt nn : 6
+in dt nn : 5
+prp vbd vb prp : 3
+prp vbp prp ex : 3
+dt nn vbz : 3
+prp vbd jj : 3
+prp md vb dt nn : 3
+prp nn vb vbn jj : 2
+prp vbp rb : 2
+wrb vbz prp$ nn : 2
+vb prp rb : 2
+cc dt nns jj : 2
+prp vbp vb rb : 2
+vb dt nn : 2
+prp md vb : 2
+wrb md prp vbp prp : 2
+prp md vb jj : 2
+wp vbd prp vbp : 2
+in nn prp vbd : 2
+prp vbd to vb : 2
+cc nn to vb rb to in nn : 2
+prp vbp prp in : 2
+prp md vb prp : 2
+prp vbp dt nn : 2
+prp vbp nns dt jj rb nn in nn : 2
+jj in prp : 2
+prp vbd prp : 2
+prp vbp to vb : 2
+nnp dt nn : 2
+prp vbd vb dt jj nnps nnp : 2
+nnps dt nn : 2
+nnp vb prp$ nn : 2
+in dt nn in nn : 2
+cc dt nn : 2
+in dt nns in dt nn : 2
+prp rb vbd prp : 2
+in prp vbp rb cc rb : 2
+nn ex vbz in vbz nn dt nn : 2

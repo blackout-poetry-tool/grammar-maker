@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar Maker</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rita/1.3.94/rita-full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+    <script src="sketch.js"></script>
+</head>
+
+<body>
+    <section class="wrapper">
+        <section class="panel paste">
+            <div class="container">
+                <p class="p_child title">Grammar Maker</p>
+                <p class="p_child sub_title">A little program which converts text lines into their <a target="_blank" href="https://rednoise.org/rita/reference/PennTags.html">part-of-speech</a>
+                    sequence using <a target="_blank" href="https://rednoise.org/rita/">RiTa.js</a> to get the most frequent grammar
+                    rule.</p>
+                <div class="p_child dropzone">
+                    <span>Drop a text file here</span>
+                    <svg version="1.1" class='delete_bttn' x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+                        <g class="paths">
+                            <path id="path2" d="M256,512C114.8,512,0,397.2,0,256S114.8,0,256,0s256,114.8,256,256S397.2,512,256,512z M256,36.6
+	C135,36.6,36.6,135,36.6,256S135,475.4,256,475.4S475.4,377,475.4,256S377,36.6,256,36.6z" />
+                            <path id="path4" d="M347.4,365.7c-4.7,0-9.4-1.8-12.9-5.4L151.6,177.5c-7.1-7.1-7.1-18.7,0-25.9c7.1-7.1,18.7-7.1,25.9,0
+	l182.9,182.9c7.1,7.1,7.1,18.7,0,25.9C356.8,363.9,352.1,365.7,347.4,365.7z" />
+                            <path id="path6" d="M164.6,365.7c-4.7,0-9.4-1.8-12.9-5.4c-7.1-7.1-7.1-18.7,0-25.9l182.9-182.9c7.1-7.1,18.7-7.1,25.9,0
+    c7.1,7.1,7.1,18.7,0,25.9L177.5,360.4C173.9,363.9,169.3,365.7,164.6,365.7z" />
+                        </g>
+                    </svg>
+                </div>
+                <p class="p_child or">————— Or —————</p>
+                <div class="p_child textzone">
+                    <textarea class="text_field" placeholder="Start typing . . .
+
+
+
+Note: This program only converts lines with more than two words."></textarea>
+                </div>
+                <div class="button disabled" data-flag='0'>Convert</div>
+            </div>
+        </section>
+        <section class="panel show">
+            <div class="table_heading">
+                <p class="th th1">Sequence</p>
+                <p class="th th2">Count</p>
+            </div>
+            <div class="table_body">
+                <div class="table_container">
+                    <div class="row row1">
+                        <!-- <p class="rule fixed">Sequence</p> -->
+                    </div>
+                    <div class="row row2">
+                        <!-- <p class="count fixed">Count</p> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>
